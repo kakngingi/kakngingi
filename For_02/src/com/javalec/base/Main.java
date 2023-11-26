@@ -25,11 +25,11 @@ public class Main {
 		int lastNum =  scanner.nextInt();
 		
 		if (startNum > lastNum ) {
-			10         1
+			
 			int setFirst = startNum;
-			               10
+			               
 			for (int i = startNum; lastNum <= i; i--) {
-				sum += i ;  10       1 
+				sum += i ;       
 				count += 1;
 				
 				if (i % 2 == 0) {
