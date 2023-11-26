@@ -6,7 +6,7 @@ public class KMain {
 
 	public static void main(String[] args) {
 		//스캐너 생성
-		Scanner scanner = new scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		//입력받을 변수, 합계, 평균, 카운트
 		int startNum = 0;
