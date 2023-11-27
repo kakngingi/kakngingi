@@ -10,7 +10,7 @@ public class KMain {
 		
 		//입력받을 변수, 합계, 평균, 카운트
 		int startNum = 0;
-		int lastNum = 0;
+		int endNum = 0;
 		int sum = 0;
 		int evenSum = 0;
 		int oddSum = 0;
@@ -20,8 +20,16 @@ public class KMain {
 		System.out.print("덧셈 시작 수를 입력 : ");
 		startNum = scanner.nextInt();
 		System.out.print("마지막 수를 입력 : ");
-		lastNum = scanner.nextInt();
+		endNum = scanner.nextInt();
 		
+		if (startNum < endNum) {
+			
+			for (int i = startNum; i <= endNum; i++) {
+				
+				
+				
+			}
+		}
 		
 		
 		
