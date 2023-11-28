@@ -8,28 +8,28 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		int sum = 0; 
-		int evenSum = 0;
-		int oddSum = 0; // 홀
-		double count = 0;
-		double evenCount = 0;
-		double oddCount = 0;
-		double avg = 0;
-		double evenAvg = 0;
-		double oddAvg = 0;
+		int sum = 0; // 총 합계
+		int evenSum = 0; // 짝수 합계
+		int oddSum = 0; //  홀수 합
+		double count = 0; // 총 카운트 
+		double evenCount = 0; // 짝수 카운트 
+		double oddCount = 0; // 홀수 카운트 
+		double avg = 0; // 총 평균 
+		double evenAvg = 0; // 짝수 평균 
+		double oddAvg = 0;// 홀수 평균 
 		
 //		
 		System.out.print("덧셈 시작 수를 입력 : ");
-		int startNum =  scanner.nextInt();
+		int startNum =  scanner.nextInt(); // 시작 숫자 입력 
 		System.out.print("마지막 수를 입력 : ");
-		int lastNum =  scanner.nextInt();
+		int lastNum =  scanner.nextInt(); // 종료 숫자 입력 
 		
-		if (startNum > lastNum ) {
-			
+		if (startNum > lastNum ) { // 시작 숫자가 끝 숫자보다 클떄 
+	
 			int setFirst = startNum;
 			               
 			for (int i = startNum; lastNum <= i; i--) {
-				sum += i ;       
+				sum += i ;        
 				count += 1;
 				
 				if (i % 2 == 0) {
