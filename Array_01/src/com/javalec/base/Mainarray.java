@@ -14,20 +14,29 @@ public class Mainarray {
 		weekDay[6] = "토요일";
 		
 		
-//		System.out.println(weekDay.length);
-//		for(int i = 0; i<weekDay.length; i++) {
-//			if(i % 2 == 0) 
+//		System.out.println(weekDay.length); //	크기를 나타냄 
+//		for(int i = 0; i<weekDay.length; i++) { // 시작값 0 1씩 증가해서 6까지만 출력
+//			if(i % 2 == 0) //	짝수만 출력
 //			System.out.println(weekDay[i]);
 //		}
-		
-	
 		int i = 0;
 		
 		while(i < weekDay.length) {
-			System.out.println(weekDay[i]);
-			i++;
-		
-			}
+			if(i % 2 ==0) {
+				System.out.println(weekDay[i]);
+				}
+				i++;
+			
+		}
+		System.out.println();
+	
+//		int i = 0;
+//		
+//		while(i < weekDay.length) {
+//			System.out.println(weekDay[i]);
+//			i++;
+//		
+//			}
 		
 		
 	}

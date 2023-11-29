@@ -22,7 +22,7 @@ public class Main {
 		int num1 = 0; 				// 시작하는 숫자
 		int num2 = 0;				// 끝 숫자
 		int num3 = 0; 				// 원하는 배수의 숫자
-		int num4 = 0;				// 입력한 배수의 최대값
+		int num4 = 0;
 		int tot = 0; 				// num3의 배수의 총합
 		int totCnt = 0; 			// num3의 배수의 갯수
 		int firstNum = 0; 			// 최소 숫자

@@ -45,7 +45,7 @@ public class main {
 				for(int dan = 2; dan <=9; dan++) {
 					System.out.print(dan + " X " + i + " = " + (dan*i)+ "\t");
 */		
-		for(int i=1; i<=9; i++) {
+/*		for(int i=1; i<=9; i++) {
 				for(int dan = 2; dan <=9; dan++) {
 					if(dan*i % 2 == 0 )
 						System.out.print(dan + " X " + i + " = " + (dan*i) + "\t");
@@ -55,6 +55,67 @@ public class main {
 					
 			}
 				System.out.println();
-		}
+}
+*/
+	
+				
+		for(int a = 2, b = 1; a <= 9 && b<=9; a++) {
+			System.out.print(a + " X " + b + " = " + a*b + "\t");
+			
+			if(a==9) {
+			 a=1;
+			 b++;
+			 System.out.println("\n");
+			 
+				}
+			}
+//		
+//		for ( a = 1; a <= 9 a++)
+//		
+//		
+//		for (int count = 1, danFirst = 1, danLast = 1; count <= 72; count ++) {
+//			dan++;
+//			System.out.print(dan + " X " + danLast + " = " + (dan * danLast) + "\t");
+//			
+//			if (dan == 9) {
+//				dan = 2;
+//				danLast++;
+//				System.out.println();
+//			}
+//			
+//		}
+//			
+			
+		
+		
+//			int a = 2;
+//			for(int i = 1; i <= 9; i++) {
+//			System.out.print(a + " X " + i + " = " + (a*i) + "\t"); 
+//			System.out.print(a+1 + " X " + i + " = " + ((a+1)*i) + "\t"); 
+//			System.out.print(a+2 + " X " + i + " = " + ((a+2)*i) + "\t"); 
+//			System.out.print(a+3 + " X " + i + " = " + ((a+3)*i) + "\t"); 
+//			System.out.print(a+4 + " X " + i + " = " + ((a+4)*i) + "\t"); 
+//			System.out.print(a+5 + " X " + i + " = " + ((a+5)*i) + "\t"); 
+//			System.out.print(a+6 + " X " + i + " = " + ((a+6)*i) + "\t"); 
+//			System.out.println(a+7 + " X " + i + " = " + ((a+7)*i) + "\t"); 
+				
+			
+		
+	
+		
+//  1.
+//	for(int i = 1; i <= 9; i++) {
+//	System.out.println();
+//	for(int dan = 2; dan <= 9; dan++) {
+//		if(i % 2 == 0)
+//			System.out.print(dan + " X " + i +  " = " + (dan*i) + "\t");
+//			else  
+//				System.out.print(dan + " X *" + " = " + (dan*i) + "\t");
+		
+// 2.		
+//		for(int i = 1; i <= 9; i++) {
+//			System.out.println();
+//			for(int dan = 2; dan <= 9; dan++) {
+//				System.out.print(i % 2 == 1 ? dan + " X *" + " = " + (dan*i) + "\t" : dan + " X " + i + " = " + (dan*i) + "\t" );
 	}		
 }	
