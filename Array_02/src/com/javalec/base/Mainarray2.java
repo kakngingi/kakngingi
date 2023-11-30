@@ -27,29 +27,17 @@ public class Mainarray2 {
 		//	배열 구구단 : 가로로 출력하기
 		
 		int[] danNum = {5,3,9};
-		
-		for(int i = 1; i <= 9; i++)
-			for(int a = 0; a < danNum.length; a++) {
-				System.out.print(danNum[a] + " X " + i + " = " + (danNum[a]*i) + "\t");
-					
-				if(danNum[a] == danNum[2]) {
-					
-			System.out.println("");
-				
-			}
-			
-				
-			
-			
-				 
-			 
-		
-		
-			
-		
-				
-		
-		}
+//		
+//		for(int i = 1; i <= 9; i++)
+//			for(int a = 0; a < danNum.length; a++) {
+//				System.out.print(danNum[a] + " X " + i + " = " + (danNum[a]*i) + "\t");
+//					
+//				if(danNum[a] == danNum[2]) {
+//					
+//			System.out.println("");
+//				
+//			}
+//		}
 		
 //		for(int i = 1; i <= 9; i++) {
 //			System.out.print(danNum[0] + " X " + i + " = " + (danNum[0]*i) + "\t");
@@ -57,6 +45,17 @@ public class Mainarray2 {
 //			System.out.println(danNum[2] + " X " + i + " = " + (danNum[2]*i) + "\t");
 //			
 //		}
+		for(int dan = 0, i = 1; dan < danNum.length && i <= 9; dan++) {
+			System.out.print(danNum[dan] + " X " + i + " = " + danNum[dan]*i + "\t");
+			
+			if(danNum[dan] == danNum[2]) {
+				danNum[dan] = danNum[0];
+				i++;
+				System.out.println("");
+			}
+			
+			
+		}
 
 	}
 
