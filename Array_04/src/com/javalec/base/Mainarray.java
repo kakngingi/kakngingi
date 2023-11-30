@@ -23,7 +23,7 @@ public class Mainarray {
 		double avg = 0;	//	키 평균
 		double total = 0;	//	키 합계
 		double maxTall = Integer.MIN_VALUE;	// 최대값 변수 맥스값=민값 비교 
-		double minTall = Integer.MAX_VALUE;	// 최소값 변수	민값=맥스값 비
+		double minTall = Integer.MAX_VALUE;	// 최소값 변수	민값=맥스값 비교
 		int maxNum = 0; // 최대값 순번 
 		int minNum = 0;	// 최소값 순번
 		String maxTallName = "";	//	키가 가장큰사람 이름
@@ -36,7 +36,7 @@ public class Mainarray {
 		System.out.print(name[i]+"의 신장을 입력하세요 : ");	
 		tall[i] = scanner.nextInt();
 		
-		total += tall[i];	// 다섯사람의 키를 총 더한값
+		total += tall[i];	// 다섯사람의 키를 총 더한값 total = total[0]+[1]+[2]+[3]+[4]
 		
 		if (tall[i] > maxTall) {
 			maxTall = tall[i];	//	담겨진 키의 값을 찾아주는것

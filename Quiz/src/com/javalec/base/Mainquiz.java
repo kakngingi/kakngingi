@@ -13,7 +13,9 @@ public class Mainquiz {
 			k*=10;	//	k=k*10 k값 곱하기 10을 계속 누적해서 함
 			System.out.println("10^" + num + " = " + result);
 		}
-		
+//		k*=10;	//	k=k*10 k값 곱하기 10을 계속 누적해서 함
+//		System.out.println("10^" + String.format("%2d", i) + " = " + String.format("%12d", k));
+//	}
 		
 //		System.out.println();
 //		System.out.print("\t");
