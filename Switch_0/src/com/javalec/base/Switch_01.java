@@ -13,6 +13,7 @@ public class Switch_01 {
 		
 		System.out.print("숫자를 입력하세요 : ");
 		inputNumber = scanner.nextInt();
+		scanner.close();
 		
 		/* if문 적용
 		if(inputNumber % 2 == 0) {
