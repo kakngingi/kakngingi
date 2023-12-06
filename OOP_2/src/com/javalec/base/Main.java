@@ -11,12 +11,12 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 
-		SumEvenOdd sumEvenOdd = new SumEvenOdd();
+		SumEvenOdd sumEvenOdd = new SumEvenOdd(); // 합계 홀수 짝수 구하기
 
-		int startNum = 0;
-		int endNum = 0;
-		int sum = 0;
-		String result = "";
+		int startNum = 0;	// 작은 숫자
+		int endNum = 0;	// 큰 숫자
+		int sum = 0;	// 합계
+		String result = "";	//	홀수 짝수 결과값
 
 		System.out.print("범위의 숫자중 작은 숫자 : ");
 		startNum = scanner.nextInt();
@@ -25,9 +25,9 @@ public class Main {
 		endNum = scanner.nextInt();
 
 
-		sum = sumEvenOdd.sumCalc(startNum, endNum);
-		System.out.println(startNum + " ~ " + endNum + " 까지의 합계는 : " + sum);
-		result = sumEvenOdd.evenOdd(sum);
+		sum = sumEvenOdd.sumCalc(startNum, endNum);	// 작은 숫자에서 큰 숫자까지의 합계 누적값
+		System.out.println(startNum + " ~ " + endNum + " 까지의 합계는 : " + sum);	
+		result = sumEvenOdd.evenOdd(sum);	//	짝수 홀수 결과 출력값
 		System.out.println(result);
 		
 	}

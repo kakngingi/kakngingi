@@ -8,22 +8,24 @@ public class Quiz14 {
 		
 		Scanner sc =  new Scanner(System.in);
 		
-		int i = 0;
 		int cnt = 0;
-		int[] name = {1,2,3,4,5};
+		int[] cusNum = {1,2};
+		int inputNum = 0;
 		
-		
-		System.out.println("1.입금");
-		System.out.println("2.출금");
-		System.out.println("3.현황");
-		System.out.println("4.종료");
-		
-		System.out.print("번호를 선택하세요!");
-		cnt	= sc.nextInt();
 		
 		while(true) {
-			if(cnt<=1)
+			for(int i =1 ; i<=5; i++) {
+				}
+			System.out.println("1.입금");
+			System.out.println("2.출금");
+			System.out.println("3.현황");
+			System.out.println("4.종료");
 			System.out.println();
+			System.out.print("번호를 선택하세요! ");
+			inputNum= sc.nextInt();
+		
+	
+		
 		}
 		
 		
@@ -31,6 +33,7 @@ public class Quiz14 {
 		}
 		
 }
+
 		
 
 	
